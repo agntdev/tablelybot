@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Reschedule",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Initiate rescheduling flow from confirmation screen"
+            }
+          }
+        ],
+        "send": {
+          "callback": "booking:reschedule"
+        }
+      }
+    ]
+  }
+]
